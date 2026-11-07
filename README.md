@@ -25,10 +25,7 @@ plugin_manager action=install_bundle target=https://github.com/minghai678/dsh-di
 bundle 列表中启用。首次安装后无需重启当前页面；插件会在 Host 侧注册三个工具。
 用 `dictator action=doctor` 可以检查 `spawn` provider 和工具是否可用。
 
-> DSH 的插件作用域是 profile。若同时使用多个 profile（例如 `desktop`、`web`），
-> 需要在目标 profile 中各安装一次；它不是 npm `-g` 的全局安装。
->
-> 如果实际仓库名或 GitHub 用户名不同，请替换 `minghai678/dsh-dictator-lieutenants`。
+
 
 ## 工具
 

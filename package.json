@@ -1,0 +1,44 @@
+{
+  "name": "dsh-dictator-lieutenants",
+  "version": "0.1.0",
+  "description": "Dictator and Lieutenants multi-agent workflow for DeepSeek Harness",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "lib/index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "icon": "./icon.svg",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minghai678/dsh-dictator-lieutenants.git"
+  },
+  "homepage": "https://github.com/minghai678/dsh-dictator-lieutenants#readme",
+  "bugs": {
+    "url": "https://github.com/minghai678/dsh-dictator-lieutenants/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "multi-agent",
+    "workflow",
+    "git"
+  ]
+}
